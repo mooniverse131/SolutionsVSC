@@ -3,5 +3,10 @@
         "c":"cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
     },
-    "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\cmd.exe"
+    "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\cmd.exe",
+    "java.project.sourcePaths": [
+        "2609",
+        "swbasic/10430"
+    ],
+    "python.pythonPath": "/usr/bin/python3"
 }
