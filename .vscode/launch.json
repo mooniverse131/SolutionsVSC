@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch j1934",
+            "request": "launch",
+            "mainClass": "j1934",
+            "projectName": "SolutionsVSC_c00d907a"
+        },
+        {
+            "type": "java",
             "name": "Launch j10430",
             "request": "launch",
             "mainClass": "j10430",

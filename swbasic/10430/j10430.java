@@ -1,7 +1,6 @@
-import java.util.Scanner;
+import java.util.*;
 
-public class j10430 {
-
+class j10430 {
     public static void main(String[] args) {
         int A = 0, B = 0, C = 0;
         Scanner scanner = new Scanner(System.in);

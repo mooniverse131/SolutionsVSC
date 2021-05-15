@@ -1,12 +1,15 @@
 import java.util.*;
 
-class Main {
+class j1934 {
     public static void main(String[] args) {
-        int a, b;
         Scanner sc = new Scanner(System.in);
-        a = sc.nextInt();
-        b = sc.nextInt();
-        System.out.println(gcd(a, b) + "\n" + lcm(a, b));
+        int A = 0, B = 0, count = 0;
+        count = sc.nextInt();
+        for (int i = 0; i < count; i++) {
+            A = sc.nextInt();
+            B = sc.nextInt();
+            System.out.println(lcm(A, B));
+        }
         sc.close();
     }
 
